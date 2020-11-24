@@ -1,1 +1,3 @@
 # accountManagement
+Implementation/Execution Details:I have implemented it using Spring Boot and msaccess db /ucanaccess driver(database file which was shared) 1. APIs postman collection shared in the same URL which needs to be imported in the postman   APIs -> account/authenticate, account/login, account/get/last/three, account/get/filter2. API account/authenticate will expect username/password and will give the jwt token as the output3. The same jwt token can be used for the remaining APIs by passing the Authorization: Bearer in header4. Configurations/file locations are provided in application.properties
+Please feel free to ask any queries.
